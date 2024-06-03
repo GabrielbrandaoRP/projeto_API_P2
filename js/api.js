@@ -1,4 +1,4 @@
-// Aqui o CHATGPT implementou o "Promise" na função de obterMensagens.Fora isso não teve mais modificações com o chatgpt. 
+
 function obterMensagens() {
     return new Promise(function(resolve, reject) {
         $.ajax({
@@ -17,14 +17,14 @@ function obterMensagens() {
 
 function inserirMensagem(mensagem) {
 
-    /*
+    
 
-    var mensagem = {
-            nome: "nome da pessoa", 
-            email: "email informado", 
-            mensagem: "a mensagem informada"} 
+    // var mensagem = {
+    //         nome: "nome da pessoa", 
+    //         email: "email informado", 
+    //         mensagem: "a mensagem informada"} 
 
-    */
+
 
     var inserir = $.ajax({
 
@@ -42,13 +42,13 @@ function validarUsuario(objLoginSenha) {
     //email: admin@admin.com
     //senha: '1234'
 
-    /*
+    
 
     var objLoginSenha = {
             email: "email informado", 
             senha: "senha informada"} 
 
-    */
+    
 
     var retorno = false;
 
